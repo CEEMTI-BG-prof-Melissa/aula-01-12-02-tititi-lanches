@@ -5,35 +5,48 @@
   <body>
     <h1> Formulário </h1>
     <form>
+      <!--aqui o usuário insere suas informações, pedindo o nome completo e o usuário-->
       <h3> • Informações Básicas </h3>
       Nome Completo <input type="text" id="NomeCompleto" name="NomeCompleto">
       <br><br>
       Email <input type="email" id="Email" name="Email">
       <br>
-
+      <!--aqui o usuário seleciona qual sua linguagem favorita para programar, podendo escolher entre uma ou mais opções-->
       <h3> • Preferências Tecnológicas  </h3>
       Selecione suas linguagens favoritas:
       <br>
       <label>
-        <input type="checkbox" id="linguagem" name="linguagem" value="html"> HTML
-        <br>
-        <input type="checkbox" id="linguagem" name="linguagem" value="css"> CSS
-        <br>
-        <input type="checkbox" id="linguagem" name="linguagem" value="javascript"> JavaScript
-        <br>
-        <input type="checkbox" id="linguagem" name="linguagem" value="python"> Python
+        <input type="checkbox" id="linguagem" name="linguagem" value="html"> HTML <!--Opção HTML-->
       </label>
-
+        <br>
+      <label>
+        <input type="checkbox" id="linguagem" name="linguagem" value="css"> CSS <!--Opção CSS-->
+      </label>
+        <br>
+      <label>
+        <input type="checkbox" id="linguagem" name="linguagem" value="javascript"> JavaScript <!--Opção JavaScript-->
+      </label>
+        <br>
+      <label>
+        <input type="checkbox" id="linguagem" name="linguagem" value="python"> Python <!--Opção Python-->
+      </label>
+      <!--aqui o usuário pode selecionar seu turno para estudar (apenas um)-->
       <h3> • Turno de Estudo </h3>
       Escolha um turno:
       <br>
       <label>
-        <input type="radio" id="turno" name="turno" value="manha"> Manhã
-        <br>
-        <input type="radio" id="turno" name="turno" value="tarde"> Tarde
-        <br>
-        <input type="radio" id="turno" name="turno" value="noite"> Noite
+        <input type="radio" id="turno" name="turno" value="manha"> Manhã <!--Opção Manhã-->
       </label>
+        <br>
+      <label>
+        <input type="radio" id="turno" name="turno" value="tarde"> Tarde <!--Opção Tarde-->
+      </label>
+        <br>
+      <label>
+        <input type="radio" id="turno" name="turno" value="noite"> Noite <!--Opção Noite-->
+      </label>
+      <br><br>
+      <input type="submit"> <!--Botão de envio-->
     </form>
   </body>
 </html>
